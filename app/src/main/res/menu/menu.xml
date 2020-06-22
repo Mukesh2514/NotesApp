@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- <item
+        android:id="@+id/menuSearch"
+        android:icon="@android:drawable/ic_media_ff"
+        android:orderInCategory="100"
+        android:title="Search"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom|withText" /> -->
+    <item
+        android:id="@+id/menuAdd"
+        android:icon="@drawable/addnote"
+        android:title="Add New Note"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/menuAdd2"
+        android:icon="@drawable/addnote"
+        android:title="Add New Note"
+    />
+    <item
+        android:id="@+id/menuLogout"
+        android:icon="@drawable/delete2"
+        android:title="Exit"
+        />
+</menu>
